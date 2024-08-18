@@ -4,6 +4,7 @@ This repository aims at interoperability between two blockchains network, one be
 
 Refer to the video - https://www.youtube.com/watch?v=coQ5dg8wM2o , to setup the Ethereum application, ganache , Metamask and all the underlying depedencies.
 
-Once you are done writing your custom contract, use the command ```truffle compile``` , to compile the smart contract.
+Once you are done writing your custom contract, use the command 
+```truffle compile``` , to compile the smart contract.
 ```truffle migrate``` to deploy the contract .
 ```truffle migrate --reset``` if the contract has already been deployed and you want to re-deploy it.
