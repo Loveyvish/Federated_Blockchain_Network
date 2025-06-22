@@ -1,0 +1,33 @@
+{
+  "name": "hpc-blockchain",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@msgpack/msgpack": "^3.1.1",
+    "axios": "^1.7.9",
+    "body-parser": "^1.20.3",
+    "cbor": "^10.0.3",
+    "cbor-cli": "^10.0.3",
+    "csv-parser": "^3.2.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "fabric-ca-client": "^2.2.20",
+    "fabric-network": "^2.2.20",
+    "fs": "^0.0.1-security",
+    "ngrok": "^5.0.0-beta.2",
+    "protobufjs": "^7.5.0",
+    "raw-body": "^3.0.0",
+    "truffle": "^5.0.2",
+    "type-is": "^2.0.1",
+    "web3": "^4.16.0",
+    "xml2js": "^0.6.2",
+    "yamljs": "^0.3.0"
+  }
+}

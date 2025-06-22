@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+message Location {
+  float latitude = 1;
+  float longitude = 2;
+}
+
+message SensorData {
+  float temperature = 1;
+  int32 humidity = 2;
+  string deviceId = 3;
+  string timestamp = 4;
+  float pressure = 5;
+  Location location = 6;
+  string status = 7;
+  int32 battery = 8;
+}
+
